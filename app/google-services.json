@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1030007900604",
+    "firebase_url": "https://project-1722625585756267726.firebaseio.com",
+    "project_id": "project--1722625585756267726",
+    "storage_bucket": "project--1722625585756267726.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030007900604:android:f9821a50192b9adb",
+        "android_client_info": {
+          "package_name": "com.anguelsc.googlemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030007900604-1h3b81hlm03h05hccdst248cfbalsr4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0sPhWwfFUzxbqrGQMUpmvfDCfyIEKVU8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
