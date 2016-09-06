@@ -1,7 +1,10 @@
 package com.anguelsc.googlemaps;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.anguelsc.googlemaps.Models.Pokemon;
 import com.google.firebase.database.DatabaseReference;
@@ -13,10 +16,13 @@ public class DataActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("pokemons");
-        DatabaseReference local = myRef.child("pokemon");
-        local.setValue(new Pokemon("Pokemon 2",-6.7715875,-79.8390040));
+        Button MAPA = (Button) findViewById(R.id.button2);
+        MAPA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DataActivity.this, MapsActivity.class));
+            }
+        });
 
     }
 }

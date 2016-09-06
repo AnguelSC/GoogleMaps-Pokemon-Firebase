@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GoogleMaps.iml" filepath="$PROJECT_DIR$/GoogleMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoogleMaps-Pokemon-Firebase.iml" filepath="$PROJECT_DIR$/GoogleMaps-Pokemon-Firebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

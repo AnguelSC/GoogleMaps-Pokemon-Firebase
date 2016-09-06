@@ -11,15 +11,20 @@ public class Pokemon implements Parcelable {
     private double longitud;
     private String nombre;
 
-    public Pokemon(Parcel parcel) {
-        setNombre(parcel.readString());
-        setLatitud(parcel.readDouble());
-        setLongitud(parcel.readDouble());
+    public Pokemon(){
+
     }
+
     public Pokemon(String nombre, double latitud, double longitud){
         this.nombre = nombre;
         this.latitud = latitud;
         this.longitud = longitud;
+    }
+
+    public Pokemon(Parcel parcel) {
+        setNombre(parcel.readString());
+        setLatitud(parcel.readDouble());
+        setLongitud(parcel.readDouble());
     }
 
     public double getLatitud() {
